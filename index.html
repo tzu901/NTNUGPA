@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NTNU GPA Calculator</title>
+<link rel="icon" href="../../img/logo.ico">
+<link rel="stylesheet" href="src/index.css">
+</head>
+<style>
+    * {
+    cursor: url("https://images.plurk.com/48oVAaqTfzZtTKVN4BzY9l.png"), auto;
+    }
+</style>
+<body>
+<h2>NTNU GPA Calculator</h2>
+
+<form id="gpaCalculator">
+    <div id="courseInputs">
+        <div class="courseRow">
+            <input type="number" name="credits[]" placeholder="Weight/Credits">
+            <input type="text" name="grades[]" placeholder="Grade">
+            <input type="text" name="descriptions[]" class="description" placeholder="Description" style="display: none;">
+        </div>
+        <div class="courseRow">
+            <input type="number" name="credits[]" placeholder="Weight/Credits">
+            <input type="text" name="grades[]" placeholder="Grade">
+            <input type="text" name="descriptions[]" class="description" placeholder="Description" style="display: none;">
+        </div>
+        <div class="courseRow">
+            <input type="number" name="credits[]" placeholder="Weight/Credits">
+            <input type="text" name="grades[]" placeholder="Grade">
+            <input type="text" name="descriptions[]" class="description" placeholder="Description" style="display: none;">
+        </div>
+        <div class="courseRow">
+            <input type="number" name="credits[]" placeholder="Weight/Credits">
+            <input type="text" name="grades[]" placeholder="Grade">
+            <input type="text" name="descriptions[]" class="description" placeholder="Description" style="display: none;">
+        </div>
+
+    </div>
+
+    <label>
+        <input type="checkbox" id="toggleDescriptions"> Show Course Description fields
+    </label>
+
+    <button type="button" onclick="addRow()">Add Row</button>
+    <button type="button" onclick="resetForm()">Reset</button>
+    <button type="button" onclick="calculateGPA()">Calculate</button>
+</form>
+
+<script src="src/index.js"></script>
+
+</body>
+</html>

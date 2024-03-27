@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  #courseInputs {
+    margin-bottom: 20px;
+  }
+  
+  .courseRow {
+    margin-bottom: 10px;
+  }
+  
+  .courseRow input {
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4cae4c;
+  }
+  
+  #toggleDescriptions {
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+  
